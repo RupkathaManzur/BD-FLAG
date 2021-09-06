@@ -1,0 +1,119 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px ;
+	height: 1400px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+.green {
+	width: 800px;
+	height: 400px;
+	background: green;
+	position: relative;
+	margin: 60px auto;
+
+}
+.red {
+	width: 200px;
+	height: 200px;
+	background:red;
+	border-radius: 100%;
+	position: absolute;
+	top:20%;
+	left:38% ;
+}
+
+
+.fb {
+	width: 150px;
+	position: fixed;
+	top:40%;
+	right:-100px;
+	transition: 1s;
+
+}
+.fb:hover {
+	right: -5px;
+	cursor: pointer;
+}
+
+.yt {
+	width: 150px;
+	position: fixed;
+	top:50%;
+	right:-100px;
+	transition: 1s;
+
+}
+.yt:hover {
+	right: -5px;
+	cursor: pointer;
+}
+
+.social-media{
+	width:100%;
+	margin:80px 0px;
+	padding: 80px, 0px;
+	background: white;
+}
+.social-icons{
+	text-align: center;
+	width: 100%;
+
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a .fa{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+}
+
+
+.social-icons li a .fa-facebook{
+	background: #097EEB;
+	color: #fff;
+}
+
+.social-icons li a .fa-eye{
+	background:coral;
+	color: #fff;
+}
+
+.social-icons li a .fa-bath{
+	background:lightblue;
+	color: #fff;
+}
+
+.social-icons li a .fa-twitter{
+	background:aqua;
+	color: #fff;
+}
+.social-icons li a .fa:hover{
+	background:purple;
+	color: black;
+}
+
+.social-icons li a .fa-facebook:hover{
+
+}
